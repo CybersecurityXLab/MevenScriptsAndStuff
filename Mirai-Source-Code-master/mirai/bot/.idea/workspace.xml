@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="bot" targetName="bot" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28c4c90e-18c8-4b96-8e52-34f18ae9cbcd" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <splitter split-orientation="horizontal" split-proportion="0.5">
+            <split-first>
+              <leaf>
+                <file leaf-file-name="scanner.c" pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/scanner.c">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="153">
+                        <caret line="82" column="12" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="20" />
+                        <folding>
+                          <element signature="e#42#75#0" expanded="true" />
+                          <element signature="e#83#102#0" expanded="true" />
+                          <element signature="e#1777#1844#0" expanded="true" />
+                          <element signature="e#2048#2108#0" expanded="true" />
+                          <element signature="e#9729#9798#0" expanded="true" />
+                          <element signature="e#13475#13652#0" expanded="true" />
+                          <element signature="e#14082#14155#0" expanded="true" />
+                          <element signature="e#14684#14757#0" expanded="true" />
+                          <element signature="e#16194#16299#0" expanded="true" />
+                          <element signature="e#16397#16467#0" expanded="true" />
+                          <element signature="e#17463#17529#0" expanded="true" />
+                          <element signature="e#17874#17927#0" expanded="true" />
+                          <element signature="e#18446#18519#0" expanded="true" />
+                          <element signature="e#19155#19220#0" expanded="true" />
+                          <element signature="e#19744#19806#0" expanded="true" />
+                          <element signature="e#20080#20142#0" expanded="true" />
+                          <element signature="e#20815#20874#0" expanded="true" />
+                          <element signature="e#21803#21859#0" expanded="true" />
+                          <element signature="e#22659#22715#0" expanded="true" />
+                          <element signature="e#23531#23591#0" expanded="true" />
+                          <element signature="e#24392#24448#0" expanded="true" />
+                          <element signature="e#25263#25332#0" expanded="true" />
+                          <element signature="e#25899#25972#0" expanded="true" />
+                          <element signature="e#26262#26329#0" expanded="true" />
+                          <element signature="e#27636#27682#0" expanded="true" />
+                          <element signature="e#35092#35137#0" expanded="true" />
+                          <element signature="e#35385#35439#0" expanded="true" />
+                          <element signature="e#35883#35943#0" expanded="true" />
+                          <element signature="e#36461#36509#0" expanded="true" />
+                        </folding>
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+                <file leaf-file-name="socket.h" pinned="false" current-in-tab="false">
+                  <entry file="file:///usr/include/x86_64-linux-gnu/sys/socket.h">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="312">
+                        <caret line="162" column="15" selection-start-line="162" selection-start-column="15" selection-end-line="162" selection-end-column="15" />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+              </leaf>
+            </split-first>
+            <split-second>
+              <splitter split-orientation="vertical" split-proportion="0.5">
+                <split-first>
+                  <leaf>
+                    <file leaf-file-name="scanner.c" pinned="false" current-in-tab="false">
+                      <entry file="file://$PROJECT_DIR$/scanner.c">
+                        <provider selected="true" editor-type-id="text-editor">
+                          <state relative-caret-position="153">
+                            <caret line="235" lean-forward="true" selection-start-line="242" selection-start-column="12" selection-end-line="243" selection-end-column="61" />
+                            <folding>
+                              <element signature="e#42#75#0" expanded="true" />
+                              <element signature="e#83#102#0" expanded="true" />
+                              <element signature="e#1777#1844#0" expanded="true" />
+                              <element signature="e#2048#2108#0" expanded="true" />
+                              <element signature="e#9729#9798#0" expanded="true" />
+                              <element signature="e#13475#13652#0" expanded="true" />
+                              <element signature="e#14082#14155#0" expanded="true" />
+                              <element signature="e#14684#14757#0" expanded="true" />
+                              <element signature="e#16194#16299#0" expanded="true" />
+                              <element signature="e#16397#16467#0" expanded="true" />
+                              <element signature="e#17463#17529#0" expanded="true" />
+                              <element signature="e#17874#17927#0" expanded="true" />
+                              <element signature="e#18446#18519#0" expanded="true" />
+                              <element signature="e#19155#19220#0" expanded="true" />
+                              <element signature="e#19744#19806#0" expanded="true" />
+                              <element signature="e#20080#20142#0" expanded="true" />
+                              <element signature="e#20815#20874#0" expanded="true" />
+                              <element signature="e#21803#21859#0" expanded="true" />
+                              <element signature="e#22659#22715#0" expanded="true" />
+                              <element signature="e#23531#23591#0" expanded="true" />
+                              <element signature="e#24392#24448#0" expanded="true" />
+                              <element signature="e#25263#25332#0" expanded="true" />
+                              <element signature="e#25899#25972#0" expanded="true" />
+                              <element signature="e#26262#26329#0" expanded="true" />
+                              <element signature="e#27636#27682#0" expanded="true" />
+                              <element signature="e#35092#35137#0" expanded="true" />
+                              <element signature="e#35385#35439#0" expanded="true" />
+                              <element signature="e#35883#35943#0" expanded="true" />
+                              <element signature="e#36461#36509#0" expanded="true" />
+                            </folding>
+                          </state>
+                        </provider>
+                      </entry>
+                    </file>
+                    <file leaf-file-name="ip.h" pinned="false" current-in-tab="false">
+                      <entry file="file:///usr/include/linux/ip.h">
+                        <provider selected="true" editor-type-id="text-editor">
+                          <state relative-caret-position="285">
+                            <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="24" />
+                            <folding>
+                              <element signature="e#713#737#0" expanded="true" />
+                              <element signature="e#2801#2871#0" expanded="true" />
+                            </folding>
+                          </state>
+                        </provider>
+                      </entry>
+                    </file>
+                    <file leaf-file-name="tcp.h" pinned="false" current-in-tab="false">
+                      <entry file="file:///usr/include/linux/tcp.h">
+                        <provider selected="true" editor-type-id="text-editor">
+                          <state relative-caret-position="297">
+                            <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+                            <folding>
+                              <element signature="e#1045#1193#0" expanded="true" />
+                            </folding>
+                          </state>
+                        </provider>
+                      </entry>
+                    </file>
+                    <file leaf-file-name="types.h" pinned="false" current-in-tab="false">
+                      <entry file="file:///usr/include/linux/types.h">
+                        <provider selected="true" editor-type-id="text-editor">
+                          <state relative-caret-position="345">
+                            <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+                          </state>
+                        </provider>
+                      </entry>
+                    </file>
+                    <file leaf-file-name="checksum.c" pinned="false" current-in-tab="true">
+                      <entry file="file://$PROJECT_DIR$/checksum.c">
+                        <provider selected="true" editor-type-id="text-editor">
+                          <state relative-caret-position="360">
+                            <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+                            <folding>
+                              <element signature="e#21#43#0" expanded="true" />
+                            </folding>
+                          </state>
+                        </provider>
+                      </entry>
+                    </file>
+                  </leaf>
+                </split-first>
+                <split-second>
+                  <leaf>
+                    <file leaf-file-name="rand.c" pinned="false" current-in-tab="true">
+                      <entry file="file://$PROJECT_DIR$/rand.c">
+                        <provider selected="true" editor-type-id="text-editor">
+                          <state relative-caret-position="75">
+                            <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+                            <folding>
+                              <element signature="e#21#40#0" expanded="true" />
+                            </folding>
+                          </state>
+                        </provider>
+                      </entry>
+                    </file>
+                  </leaf>
+                </split-second>
+              </splitter>
+            </split-second>
+          </splitter>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="bot" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <element signature="e#34#52#0" expanded="true" />
+                <element signature="e#889#1046#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scanner.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scanner.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="includes.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#14#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>htonl</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/checksum.c" />
+        <option value="$PROJECT_DIR$/scanner.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="187" />
+    <option name="y" value="131" />
+    <option name="width" value="1505" />
+    <option name="height" value="793" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.bot">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bot" RUN_TARGET_NAME="bot" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="bot" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bot" TARGET_NAME="bot" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bot" RUN_TARGET_NAME="bot" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.bot" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28c4c90e-18c8-4b96-8e52-34f18ae9cbcd" name="Default" comment="" />
+      <created>1526401062539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526401062539</updated>
+      <workItem from="1526401064070" duration="3929000" />
+      <workItem from="1526482418386" duration="16875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20804000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6579248" visible="true" weight="0.23229167" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="CMake" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.06801275" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.34207526" side_tool="true" visible="true" weight="0.23229167" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file:///usr/include/linux/ip.h</url>
+          <line>90</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+          <folding>
+            <element signature="e#34#52#0" expanded="true" />
+            <element signature="e#889#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanner.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="210" column="30" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="35" />
+          <folding>
+            <element signature="e#42#75#0" expanded="true" />
+            <element signature="e#83#102#0" expanded="true" />
+            <element signature="e#1777#1844#0" expanded="true" />
+            <element signature="e#2048#2108#0" expanded="true" />
+            <element signature="e#9729#9798#0" expanded="true" />
+            <element signature="e#13475#13652#0" expanded="true" />
+            <element signature="e#14082#14155#0" expanded="true" />
+            <element signature="e#14684#14757#0" expanded="true" />
+            <element signature="e#16194#16299#0" expanded="true" />
+            <element signature="e#16397#16467#0" expanded="true" />
+            <element signature="e#17463#17529#0" expanded="true" />
+            <element signature="e#17874#17927#0" expanded="true" />
+            <element signature="e#18446#18519#0" expanded="true" />
+            <element signature="e#19155#19220#0" expanded="true" />
+            <element signature="e#19744#19806#0" expanded="true" />
+            <element signature="e#20080#20142#0" expanded="true" />
+            <element signature="e#20815#20874#0" expanded="true" />
+            <element signature="e#21803#21859#0" expanded="true" />
+            <element signature="e#22659#22715#0" expanded="true" />
+            <element signature="e#23531#23591#0" expanded="true" />
+            <element signature="e#24392#24448#0" expanded="true" />
+            <element signature="e#25263#25332#0" expanded="true" />
+            <element signature="e#25899#25972#0" expanded="true" />
+            <element signature="e#26262#26329#0" expanded="true" />
+            <element signature="e#27636#27682#0" expanded="true" />
+            <element signature="e#35092#35137#0" expanded="true" />
+            <element signature="e#35385#35439#0" expanded="true" />
+            <element signature="e#35883#35943#0" expanded="true" />
+            <element signature="e#36461#36509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/unistd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="18" column="53" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/netinet/in.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="378" column="16" selection-start-line="378" selection-start-column="16" selection-end-line="378" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanner.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/sys/socket.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="162" column="15" selection-start-line="162" selection-start-column="15" selection-end-line="162" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/linux/types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/linux/tcp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="e#1045#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/linux/ip.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#713#737#0" expanded="true" />
+            <element signature="e#2801#2871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#34#52#0" expanded="true" />
+            <element signature="e#889#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checksum.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rand.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanner.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="82" column="12" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="20" />
+          <folding>
+            <element signature="e#42#75#0" expanded="true" />
+            <element signature="e#83#102#0" expanded="true" />
+            <element signature="e#1777#1844#0" expanded="true" />
+            <element signature="e#2048#2108#0" expanded="true" />
+            <element signature="e#9729#9798#0" expanded="true" />
+            <element signature="e#13475#13652#0" expanded="true" />
+            <element signature="e#14082#14155#0" expanded="true" />
+            <element signature="e#14684#14757#0" expanded="true" />
+            <element signature="e#16194#16299#0" expanded="true" />
+            <element signature="e#16397#16467#0" expanded="true" />
+            <element signature="e#17463#17529#0" expanded="true" />
+            <element signature="e#17874#17927#0" expanded="true" />
+            <element signature="e#18446#18519#0" expanded="true" />
+            <element signature="e#19155#19220#0" expanded="true" />
+            <element signature="e#19744#19806#0" expanded="true" />
+            <element signature="e#20080#20142#0" expanded="true" />
+            <element signature="e#20815#20874#0" expanded="true" />
+            <element signature="e#21803#21859#0" expanded="true" />
+            <element signature="e#22659#22715#0" expanded="true" />
+            <element signature="e#23531#23591#0" expanded="true" />
+            <element signature="e#24392#24448#0" expanded="true" />
+            <element signature="e#25263#25332#0" expanded="true" />
+            <element signature="e#25899#25972#0" expanded="true" />
+            <element signature="e#26262#26329#0" expanded="true" />
+            <element signature="e#27636#27682#0" expanded="true" />
+            <element signature="e#35092#35137#0" expanded="true" />
+            <element signature="e#35385#35439#0" expanded="true" />
+            <element signature="e#35883#35943#0" expanded="true" />
+            <element signature="e#36461#36509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

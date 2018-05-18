@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Documents/CodePieces/main.c
+stdio.h
+-
+linux/ip.h
+-
+linux/tcp.h
+-
+arpa/inet.h
+-
+time.h
+-
+unistd.h
+-
+
