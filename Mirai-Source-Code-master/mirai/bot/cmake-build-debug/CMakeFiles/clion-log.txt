@@ -1,4 +1,4 @@
-/root/Documents/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /root/Documents/Mirai-Source-Code-master/mirai/bot
+/root/Documents/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot
 -- The C compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
@@ -8,4 +8,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug
+-- Build files have been written to: /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug

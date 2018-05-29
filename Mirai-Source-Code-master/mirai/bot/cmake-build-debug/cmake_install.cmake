@@ -1,4 +1,4 @@
-# Install script for directory: /root/Documents/Mirai-Source-Code-master/mirai/bot
+# Install script for directory: /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

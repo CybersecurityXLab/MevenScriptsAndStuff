@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/root/Documents/CodePieces/cmake-build-debug"/>
+				<Option working_dir="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/root/Documents/CodePieces/cmake-build-debug"/>
+				<Option working_dir="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/root/Documents/CodePieces/cmake-build-debug"/>
+				<Option working_dir="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CodePieces">
-				<Option output="/root/Documents/CodePieces/cmake-build-debug/CodePieces" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/root/Documents/CodePieces/cmake-build-debug"/>
+				<Option output="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CodePieces" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodePieces"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodePieces"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CodePieces/fast">
-				<Option output="/root/Documents/CodePieces/cmake-build-debug/CodePieces" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/root/Documents/CodePieces/cmake-build-debug"/>
+				<Option output="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CodePieces" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,17 +71,83 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodePieces/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 CodePieces/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/Documents/CodePieces/main.c">
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack.c">
 			<Option target="CodePieces"/>
 		</Unit>
-		<Unit filename="/root/Documents/CodePieces/CMakeLists.txt">
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_app.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_gre.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_tcp.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_udp.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/checksum.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/checksum.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/includes.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/killer.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/killer.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/main.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/protocol.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/rand.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/rand.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/resolv.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/resolv.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/scanner.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/scanner.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/table.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/table.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/util.c">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/util.h">
+			<Option target="CodePieces"/>
+		</Unit>
+		<Unit filename="/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

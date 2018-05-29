@@ -1,43 +1,30 @@
+#define DEBUG
+
+
 #include <stdio.h>
 #include <linux/ip.h>
 #include <linux/tcp.h>
 #include <arpa/inet.h>
 #include <time.h>
 #include <unistd.h>
-
-
-
-#define TRUE    1
-
-static uint32_t x, y, z, w;
-
-void rand_init(void)
-{
-    x = time(NULL);
-    y = getpid() ^ getppid();
-    z = clock();
-    w = z ^ y;
-}
-
-uint32_t rand_next(void) //period 2^96-1
-{
-    uint32_t t = x;
-    t ^= t << 11;
-    t ^= t >> 8;
-    x = y; y = z; z = w;
-    w ^= w >> 19;
-    w ^= t;
-    return w;
-}
-
+#include "scanner.h"
 
 int main() {
-    rand_init();
+
+#ifdef DEBUG
+    printf("DEBUG MODE YO");
+#endif
+
+    scanner_init();
+
+    //rand_init();
 
 
-    uint16_t source_port;
+    /*uint16_t source_port;
 
     char scanner_rawpkt[sizeof (struct iphdr) + sizeof (struct tcphdr)] = {0};
+
+
 
     struct iphdr *iph;
     struct tcphdr *tcph;
@@ -65,8 +52,8 @@ int main() {
     tcph->source = source_port; // selected randomly line 101
     tcph->doff = 5; //data offset = 160 bits - 20 bytes
     tcph->window = rand_next() & 0xffff; // Windows size random
-    tcph->syn = TRUE; //SYN flag up
+    tcph->syn = TRUE; //SYN flag up*/
 
-    printf("Hello, World!\n");
+
     return 0;
 }

@@ -48,10 +48,10 @@ RM = /root/Documents/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/CodePieces
+CMAKE_SOURCE_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/CodePieces/cmake-build-debug
+CMAKE_BINARY_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/CodePieces/cmake-build-debug/CMakeFiles /root/Documents/CodePieces/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/CodePieces/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,195 @@ CodePieces/fast:
 	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/build
 .PHONY : CodePieces/fast
 
+attack.o: attack.c.o
+
+.PHONY : attack.o
+
+# target to build an object file
+attack.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack.c.o
+.PHONY : attack.c.o
+
+attack.i: attack.c.i
+
+.PHONY : attack.i
+
+# target to preprocess a source file
+attack.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack.c.i
+.PHONY : attack.c.i
+
+attack.s: attack.c.s
+
+.PHONY : attack.s
+
+# target to generate assembly for a file
+attack.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack.c.s
+.PHONY : attack.c.s
+
+attack_app.o: attack_app.c.o
+
+.PHONY : attack_app.o
+
+# target to build an object file
+attack_app.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_app.c.o
+.PHONY : attack_app.c.o
+
+attack_app.i: attack_app.c.i
+
+.PHONY : attack_app.i
+
+# target to preprocess a source file
+attack_app.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_app.c.i
+.PHONY : attack_app.c.i
+
+attack_app.s: attack_app.c.s
+
+.PHONY : attack_app.s
+
+# target to generate assembly for a file
+attack_app.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_app.c.s
+.PHONY : attack_app.c.s
+
+attack_gre.o: attack_gre.c.o
+
+.PHONY : attack_gre.o
+
+# target to build an object file
+attack_gre.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_gre.c.o
+.PHONY : attack_gre.c.o
+
+attack_gre.i: attack_gre.c.i
+
+.PHONY : attack_gre.i
+
+# target to preprocess a source file
+attack_gre.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_gre.c.i
+.PHONY : attack_gre.c.i
+
+attack_gre.s: attack_gre.c.s
+
+.PHONY : attack_gre.s
+
+# target to generate assembly for a file
+attack_gre.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_gre.c.s
+.PHONY : attack_gre.c.s
+
+attack_tcp.o: attack_tcp.c.o
+
+.PHONY : attack_tcp.o
+
+# target to build an object file
+attack_tcp.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_tcp.c.o
+.PHONY : attack_tcp.c.o
+
+attack_tcp.i: attack_tcp.c.i
+
+.PHONY : attack_tcp.i
+
+# target to preprocess a source file
+attack_tcp.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_tcp.c.i
+.PHONY : attack_tcp.c.i
+
+attack_tcp.s: attack_tcp.c.s
+
+.PHONY : attack_tcp.s
+
+# target to generate assembly for a file
+attack_tcp.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_tcp.c.s
+.PHONY : attack_tcp.c.s
+
+attack_udp.o: attack_udp.c.o
+
+.PHONY : attack_udp.o
+
+# target to build an object file
+attack_udp.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_udp.c.o
+.PHONY : attack_udp.c.o
+
+attack_udp.i: attack_udp.c.i
+
+.PHONY : attack_udp.i
+
+# target to preprocess a source file
+attack_udp.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_udp.c.i
+.PHONY : attack_udp.c.i
+
+attack_udp.s: attack_udp.c.s
+
+.PHONY : attack_udp.s
+
+# target to generate assembly for a file
+attack_udp.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_udp.c.s
+.PHONY : attack_udp.c.s
+
+checksum.o: checksum.c.o
+
+.PHONY : checksum.o
+
+# target to build an object file
+checksum.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/checksum.c.o
+.PHONY : checksum.c.o
+
+checksum.i: checksum.c.i
+
+.PHONY : checksum.i
+
+# target to preprocess a source file
+checksum.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/checksum.c.i
+.PHONY : checksum.c.i
+
+checksum.s: checksum.c.s
+
+.PHONY : checksum.s
+
+# target to generate assembly for a file
+checksum.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/checksum.c.s
+.PHONY : checksum.c.s
+
+killer.o: killer.c.o
+
+.PHONY : killer.o
+
+# target to build an object file
+killer.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/killer.c.o
+.PHONY : killer.c.o
+
+killer.i: killer.c.i
+
+.PHONY : killer.i
+
+# target to preprocess a source file
+killer.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/killer.c.i
+.PHONY : killer.c.i
+
+killer.s: killer.c.s
+
+.PHONY : killer.s
+
+# target to generate assembly for a file
+killer.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/killer.c.s
+.PHONY : killer.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +339,141 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/main.c.s
 .PHONY : main.c.s
 
+rand.o: rand.c.o
+
+.PHONY : rand.o
+
+# target to build an object file
+rand.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/rand.c.o
+.PHONY : rand.c.o
+
+rand.i: rand.c.i
+
+.PHONY : rand.i
+
+# target to preprocess a source file
+rand.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/rand.c.i
+.PHONY : rand.c.i
+
+rand.s: rand.c.s
+
+.PHONY : rand.s
+
+# target to generate assembly for a file
+rand.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/rand.c.s
+.PHONY : rand.c.s
+
+resolv.o: resolv.c.o
+
+.PHONY : resolv.o
+
+# target to build an object file
+resolv.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/resolv.c.o
+.PHONY : resolv.c.o
+
+resolv.i: resolv.c.i
+
+.PHONY : resolv.i
+
+# target to preprocess a source file
+resolv.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/resolv.c.i
+.PHONY : resolv.c.i
+
+resolv.s: resolv.c.s
+
+.PHONY : resolv.s
+
+# target to generate assembly for a file
+resolv.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/resolv.c.s
+.PHONY : resolv.c.s
+
+scanner.o: scanner.c.o
+
+.PHONY : scanner.o
+
+# target to build an object file
+scanner.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/scanner.c.o
+.PHONY : scanner.c.o
+
+scanner.i: scanner.c.i
+
+.PHONY : scanner.i
+
+# target to preprocess a source file
+scanner.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/scanner.c.i
+.PHONY : scanner.c.i
+
+scanner.s: scanner.c.s
+
+.PHONY : scanner.s
+
+# target to generate assembly for a file
+scanner.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/scanner.c.s
+.PHONY : scanner.c.s
+
+table.o: table.c.o
+
+.PHONY : table.o
+
+# target to build an object file
+table.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/table.c.o
+.PHONY : table.c.o
+
+table.i: table.c.i
+
+.PHONY : table.i
+
+# target to preprocess a source file
+table.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/table.c.i
+.PHONY : table.c.i
+
+table.s: table.c.s
+
+.PHONY : table.s
+
+# target to generate assembly for a file
+table.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/table.c.s
+.PHONY : table.c.s
+
+util.o: util.c.o
+
+.PHONY : util.o
+
+# target to build an object file
+util.c.o:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/util.c.o
+.PHONY : util.c.o
+
+util.i: util.c.i
+
+.PHONY : util.i
+
+# target to preprocess a source file
+util.c.i:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/util.c.i
+.PHONY : util.c.i
+
+util.s: util.c.s
+
+.PHONY : util.s
+
+# target to generate assembly for a file
+util.c.s:
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/util.c.s
+.PHONY : util.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +483,45 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CodePieces"
+	@echo "... attack.o"
+	@echo "... attack.i"
+	@echo "... attack.s"
+	@echo "... attack_app.o"
+	@echo "... attack_app.i"
+	@echo "... attack_app.s"
+	@echo "... attack_gre.o"
+	@echo "... attack_gre.i"
+	@echo "... attack_gre.s"
+	@echo "... attack_tcp.o"
+	@echo "... attack_tcp.i"
+	@echo "... attack_tcp.s"
+	@echo "... attack_udp.o"
+	@echo "... attack_udp.i"
+	@echo "... attack_udp.s"
+	@echo "... checksum.o"
+	@echo "... checksum.i"
+	@echo "... checksum.s"
+	@echo "... killer.o"
+	@echo "... killer.i"
+	@echo "... killer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... rand.o"
+	@echo "... rand.i"
+	@echo "... rand.s"
+	@echo "... resolv.o"
+	@echo "... resolv.i"
+	@echo "... resolv.s"
+	@echo "... scanner.o"
+	@echo "... scanner.i"
+	@echo "... scanner.s"
+	@echo "... table.o"
+	@echo "... table.i"
+	@echo "... table.s"
+	@echo "... util.o"
+	@echo "... util.i"
+	@echo "... util.s"
 .PHONY : help
 
 

@@ -43,10 +43,10 @@ RM = /root/Documents/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/Mirai-Source-Code-master/mirai/bot
+CMAKE_SOURCE_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug
+CMAKE_BINARY_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bot.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/bot.dir/flags.make
 
 CMakeFiles/bot.dir/attack.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/attack.c.o: ../attack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bot.dir/attack.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/attack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/bot.dir/attack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack.c
 
 CMakeFiles/bot.dir/attack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/attack.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/attack.c > CMakeFiles/bot.dir/attack.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack.c > CMakeFiles/bot.dir/attack.c.i
 
 CMakeFiles/bot.dir/attack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/attack.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/attack.c -o CMakeFiles/bot.dir/attack.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack.c -o CMakeFiles/bot.dir/attack.c.s
 
 CMakeFiles/bot.dir/attack.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/bot.dir/attack.c.o.provides.build: CMakeFiles/bot.dir/attack.c.o
 
 CMakeFiles/bot.dir/attack_app.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/attack_app.c.o: ../attack_app.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bot.dir/attack_app.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_app.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_app.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bot.dir/attack_app.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_app.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_app.c
 
 CMakeFiles/bot.dir/attack_app.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/attack_app.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_app.c > CMakeFiles/bot.dir/attack_app.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_app.c > CMakeFiles/bot.dir/attack_app.c.i
 
 CMakeFiles/bot.dir/attack_app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/attack_app.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_app.c -o CMakeFiles/bot.dir/attack_app.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_app.c -o CMakeFiles/bot.dir/attack_app.c.s
 
 CMakeFiles/bot.dir/attack_app.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/bot.dir/attack_app.c.o.provides.build: CMakeFiles/bot.dir/attack_app.
 
 CMakeFiles/bot.dir/attack_gre.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/attack_gre.c.o: ../attack_gre.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bot.dir/attack_gre.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_gre.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_gre.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/bot.dir/attack_gre.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_gre.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_gre.c
 
 CMakeFiles/bot.dir/attack_gre.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/attack_gre.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_gre.c > CMakeFiles/bot.dir/attack_gre.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_gre.c > CMakeFiles/bot.dir/attack_gre.c.i
 
 CMakeFiles/bot.dir/attack_gre.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/attack_gre.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_gre.c -o CMakeFiles/bot.dir/attack_gre.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_gre.c -o CMakeFiles/bot.dir/attack_gre.c.s
 
 CMakeFiles/bot.dir/attack_gre.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/bot.dir/attack_gre.c.o.provides.build: CMakeFiles/bot.dir/attack_gre.
 
 CMakeFiles/bot.dir/attack_tcp.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/attack_tcp.c.o: ../attack_tcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bot.dir/attack_tcp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_tcp.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bot.dir/attack_tcp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_tcp.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_tcp.c
 
 CMakeFiles/bot.dir/attack_tcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/attack_tcp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_tcp.c > CMakeFiles/bot.dir/attack_tcp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_tcp.c > CMakeFiles/bot.dir/attack_tcp.c.i
 
 CMakeFiles/bot.dir/attack_tcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/attack_tcp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_tcp.c -o CMakeFiles/bot.dir/attack_tcp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_tcp.c -o CMakeFiles/bot.dir/attack_tcp.c.s
 
 CMakeFiles/bot.dir/attack_tcp.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/bot.dir/attack_tcp.c.o.provides.build: CMakeFiles/bot.dir/attack_tcp.
 
 CMakeFiles/bot.dir/attack_udp.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/attack_udp.c.o: ../attack_udp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/bot.dir/attack_udp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_udp.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_udp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/bot.dir/attack_udp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/attack_udp.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_udp.c
 
 CMakeFiles/bot.dir/attack_udp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/attack_udp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_udp.c > CMakeFiles/bot.dir/attack_udp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_udp.c > CMakeFiles/bot.dir/attack_udp.c.i
 
 CMakeFiles/bot.dir/attack_udp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/attack_udp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/attack_udp.c -o CMakeFiles/bot.dir/attack_udp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/attack_udp.c -o CMakeFiles/bot.dir/attack_udp.c.s
 
 CMakeFiles/bot.dir/attack_udp.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/bot.dir/attack_udp.c.o.provides.build: CMakeFiles/bot.dir/attack_udp.
 
 CMakeFiles/bot.dir/checksum.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/checksum.c.o: ../checksum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/bot.dir/checksum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/checksum.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/checksum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/bot.dir/checksum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/checksum.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/checksum.c
 
 CMakeFiles/bot.dir/checksum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/checksum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/checksum.c > CMakeFiles/bot.dir/checksum.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/checksum.c > CMakeFiles/bot.dir/checksum.c.i
 
 CMakeFiles/bot.dir/checksum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/checksum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/checksum.c -o CMakeFiles/bot.dir/checksum.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/checksum.c -o CMakeFiles/bot.dir/checksum.c.s
 
 CMakeFiles/bot.dir/checksum.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/bot.dir/checksum.c.o.provides.build: CMakeFiles/bot.dir/checksum.c.o
 
 CMakeFiles/bot.dir/killer.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/killer.c.o: ../killer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/bot.dir/killer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/killer.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/killer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/bot.dir/killer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/killer.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/killer.c
 
 CMakeFiles/bot.dir/killer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/killer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/killer.c > CMakeFiles/bot.dir/killer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/killer.c > CMakeFiles/bot.dir/killer.c.i
 
 CMakeFiles/bot.dir/killer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/killer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/killer.c -o CMakeFiles/bot.dir/killer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/killer.c -o CMakeFiles/bot.dir/killer.c.s
 
 CMakeFiles/bot.dir/killer.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/bot.dir/killer.c.o.provides.build: CMakeFiles/bot.dir/killer.c.o
 
 CMakeFiles/bot.dir/main.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/bot.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/main.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/bot.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/main.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/main.c
 
 CMakeFiles/bot.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/main.c > CMakeFiles/bot.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/main.c > CMakeFiles/bot.dir/main.c.i
 
 CMakeFiles/bot.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/main.c -o CMakeFiles/bot.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/main.c -o CMakeFiles/bot.dir/main.c.s
 
 CMakeFiles/bot.dir/main.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/bot.dir/main.c.o.provides.build: CMakeFiles/bot.dir/main.c.o
 
 CMakeFiles/bot.dir/rand.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/rand.c.o: ../rand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/bot.dir/rand.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/rand.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/rand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/bot.dir/rand.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/rand.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/rand.c
 
 CMakeFiles/bot.dir/rand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/rand.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/rand.c > CMakeFiles/bot.dir/rand.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/rand.c > CMakeFiles/bot.dir/rand.c.i
 
 CMakeFiles/bot.dir/rand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/rand.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/rand.c -o CMakeFiles/bot.dir/rand.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/rand.c -o CMakeFiles/bot.dir/rand.c.s
 
 CMakeFiles/bot.dir/rand.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/bot.dir/rand.c.o.provides.build: CMakeFiles/bot.dir/rand.c.o
 
 CMakeFiles/bot.dir/resolv.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/resolv.c.o: ../resolv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/bot.dir/resolv.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/resolv.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/resolv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/bot.dir/resolv.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/resolv.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/resolv.c
 
 CMakeFiles/bot.dir/resolv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/resolv.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/resolv.c > CMakeFiles/bot.dir/resolv.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/resolv.c > CMakeFiles/bot.dir/resolv.c.i
 
 CMakeFiles/bot.dir/resolv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/resolv.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/resolv.c -o CMakeFiles/bot.dir/resolv.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/resolv.c -o CMakeFiles/bot.dir/resolv.c.s
 
 CMakeFiles/bot.dir/resolv.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/bot.dir/resolv.c.o.provides.build: CMakeFiles/bot.dir/resolv.c.o
 
 CMakeFiles/bot.dir/scanner.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/scanner.c.o: ../scanner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/bot.dir/scanner.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/scanner.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/bot.dir/scanner.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/scanner.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/scanner.c
 
 CMakeFiles/bot.dir/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/scanner.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/scanner.c > CMakeFiles/bot.dir/scanner.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/scanner.c > CMakeFiles/bot.dir/scanner.c.i
 
 CMakeFiles/bot.dir/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/scanner.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/scanner.c -o CMakeFiles/bot.dir/scanner.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/scanner.c -o CMakeFiles/bot.dir/scanner.c.s
 
 CMakeFiles/bot.dir/scanner.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/bot.dir/scanner.c.o.provides.build: CMakeFiles/bot.dir/scanner.c.o
 
 CMakeFiles/bot.dir/table.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/table.c.o: ../table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/bot.dir/table.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/table.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/bot.dir/table.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/table.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/table.c
 
 CMakeFiles/bot.dir/table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/table.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/table.c > CMakeFiles/bot.dir/table.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/table.c > CMakeFiles/bot.dir/table.c.i
 
 CMakeFiles/bot.dir/table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/table.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/table.c -o CMakeFiles/bot.dir/table.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/table.c -o CMakeFiles/bot.dir/table.c.s
 
 CMakeFiles/bot.dir/table.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/bot.dir/table.c.o.provides.build: CMakeFiles/bot.dir/table.c.o
 
 CMakeFiles/bot.dir/util.c.o: CMakeFiles/bot.dir/flags.make
 CMakeFiles/bot.dir/util.c.o: ../util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/bot.dir/util.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/util.c.o   -c /root/Documents/Mirai-Source-Code-master/mirai/bot/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/bot.dir/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bot.dir/util.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/util.c
 
 CMakeFiles/bot.dir/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bot.dir/util.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/Mirai-Source-Code-master/mirai/bot/util.c > CMakeFiles/bot.dir/util.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/util.c > CMakeFiles/bot.dir/util.c.i
 
 CMakeFiles/bot.dir/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bot.dir/util.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/Mirai-Source-Code-master/mirai/bot/util.c -o CMakeFiles/bot.dir/util.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/util.c -o CMakeFiles/bot.dir/util.c.s
 
 CMakeFiles/bot.dir/util.c.o.requires:
 
@@ -403,7 +403,7 @@ bot: CMakeFiles/bot.dir/table.c.o
 bot: CMakeFiles/bot.dir/util.c.o
 bot: CMakeFiles/bot.dir/build.make
 bot: CMakeFiles/bot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable bot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable bot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -432,6 +432,6 @@ CMakeFiles/bot.dir/clean:
 .PHONY : CMakeFiles/bot.dir/clean
 
 CMakeFiles/bot.dir/depend:
-	cd /root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/Mirai-Source-Code-master/mirai/bot /root/Documents/Mirai-Source-Code-master/mirai/bot /root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug /root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug /root/Documents/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles/bot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug /root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/cmake-build-debug/CMakeFiles/bot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bot.dir/depend
 

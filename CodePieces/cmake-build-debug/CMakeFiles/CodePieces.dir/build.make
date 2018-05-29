@@ -43,10 +43,10 @@ RM = /root/Documents/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/CodePieces
+CMAKE_SOURCE_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/CodePieces/cmake-build-debug
+CMAKE_BINARY_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CodePieces.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/CodePieces.dir/flags.make
 
 CMakeFiles/CodePieces.dir/main.c.o: CMakeFiles/CodePieces.dir/flags.make
 CMakeFiles/CodePieces.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CodePieces.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/main.c.o   -c /root/Documents/CodePieces/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CodePieces.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/main.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/main.c
 
 CMakeFiles/CodePieces.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/CodePieces/main.c > CMakeFiles/CodePieces.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/main.c > CMakeFiles/CodePieces.dir/main.c.i
 
 CMakeFiles/CodePieces.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/CodePieces/main.c -o CMakeFiles/CodePieces.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/main.c -o CMakeFiles/CodePieces.dir/main.c.s
 
 CMakeFiles/CodePieces.dir/main.c.o.requires:
 
@@ -81,17 +81,329 @@ CMakeFiles/CodePieces.dir/main.c.o.provides: CMakeFiles/CodePieces.dir/main.c.o.
 CMakeFiles/CodePieces.dir/main.c.o.provides.build: CMakeFiles/CodePieces.dir/main.c.o
 
 
+CMakeFiles/CodePieces.dir/attack.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/attack.c.o: ../attack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CodePieces.dir/attack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/attack.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack.c
+
+CMakeFiles/CodePieces.dir/attack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/attack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack.c > CMakeFiles/CodePieces.dir/attack.c.i
+
+CMakeFiles/CodePieces.dir/attack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/attack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack.c -o CMakeFiles/CodePieces.dir/attack.c.s
+
+CMakeFiles/CodePieces.dir/attack.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/attack.c.o.requires
+
+CMakeFiles/CodePieces.dir/attack.c.o.provides: CMakeFiles/CodePieces.dir/attack.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/attack.c.o.provides
+
+CMakeFiles/CodePieces.dir/attack.c.o.provides.build: CMakeFiles/CodePieces.dir/attack.c.o
+
+
+CMakeFiles/CodePieces.dir/attack_app.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/attack_app.c.o: ../attack_app.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CodePieces.dir/attack_app.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/attack_app.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_app.c
+
+CMakeFiles/CodePieces.dir/attack_app.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/attack_app.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_app.c > CMakeFiles/CodePieces.dir/attack_app.c.i
+
+CMakeFiles/CodePieces.dir/attack_app.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/attack_app.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_app.c -o CMakeFiles/CodePieces.dir/attack_app.c.s
+
+CMakeFiles/CodePieces.dir/attack_app.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/attack_app.c.o.requires
+
+CMakeFiles/CodePieces.dir/attack_app.c.o.provides: CMakeFiles/CodePieces.dir/attack_app.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_app.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/attack_app.c.o.provides
+
+CMakeFiles/CodePieces.dir/attack_app.c.o.provides.build: CMakeFiles/CodePieces.dir/attack_app.c.o
+
+
+CMakeFiles/CodePieces.dir/attack_gre.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/attack_gre.c.o: ../attack_gre.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CodePieces.dir/attack_gre.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/attack_gre.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_gre.c
+
+CMakeFiles/CodePieces.dir/attack_gre.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/attack_gre.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_gre.c > CMakeFiles/CodePieces.dir/attack_gre.c.i
+
+CMakeFiles/CodePieces.dir/attack_gre.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/attack_gre.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_gre.c -o CMakeFiles/CodePieces.dir/attack_gre.c.s
+
+CMakeFiles/CodePieces.dir/attack_gre.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/attack_gre.c.o.requires
+
+CMakeFiles/CodePieces.dir/attack_gre.c.o.provides: CMakeFiles/CodePieces.dir/attack_gre.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_gre.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/attack_gre.c.o.provides
+
+CMakeFiles/CodePieces.dir/attack_gre.c.o.provides.build: CMakeFiles/CodePieces.dir/attack_gre.c.o
+
+
+CMakeFiles/CodePieces.dir/attack_tcp.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/attack_tcp.c.o: ../attack_tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CodePieces.dir/attack_tcp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/attack_tcp.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_tcp.c
+
+CMakeFiles/CodePieces.dir/attack_tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/attack_tcp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_tcp.c > CMakeFiles/CodePieces.dir/attack_tcp.c.i
+
+CMakeFiles/CodePieces.dir/attack_tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/attack_tcp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_tcp.c -o CMakeFiles/CodePieces.dir/attack_tcp.c.s
+
+CMakeFiles/CodePieces.dir/attack_tcp.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/attack_tcp.c.o.requires
+
+CMakeFiles/CodePieces.dir/attack_tcp.c.o.provides: CMakeFiles/CodePieces.dir/attack_tcp.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_tcp.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/attack_tcp.c.o.provides
+
+CMakeFiles/CodePieces.dir/attack_tcp.c.o.provides.build: CMakeFiles/CodePieces.dir/attack_tcp.c.o
+
+
+CMakeFiles/CodePieces.dir/attack_udp.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/attack_udp.c.o: ../attack_udp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CodePieces.dir/attack_udp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/attack_udp.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_udp.c
+
+CMakeFiles/CodePieces.dir/attack_udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/attack_udp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_udp.c > CMakeFiles/CodePieces.dir/attack_udp.c.i
+
+CMakeFiles/CodePieces.dir/attack_udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/attack_udp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/attack_udp.c -o CMakeFiles/CodePieces.dir/attack_udp.c.s
+
+CMakeFiles/CodePieces.dir/attack_udp.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/attack_udp.c.o.requires
+
+CMakeFiles/CodePieces.dir/attack_udp.c.o.provides: CMakeFiles/CodePieces.dir/attack_udp.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/attack_udp.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/attack_udp.c.o.provides
+
+CMakeFiles/CodePieces.dir/attack_udp.c.o.provides.build: CMakeFiles/CodePieces.dir/attack_udp.c.o
+
+
+CMakeFiles/CodePieces.dir/checksum.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/checksum.c.o: ../checksum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CodePieces.dir/checksum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/checksum.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/checksum.c
+
+CMakeFiles/CodePieces.dir/checksum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/checksum.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/checksum.c > CMakeFiles/CodePieces.dir/checksum.c.i
+
+CMakeFiles/CodePieces.dir/checksum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/checksum.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/checksum.c -o CMakeFiles/CodePieces.dir/checksum.c.s
+
+CMakeFiles/CodePieces.dir/checksum.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/checksum.c.o.requires
+
+CMakeFiles/CodePieces.dir/checksum.c.o.provides: CMakeFiles/CodePieces.dir/checksum.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/checksum.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/checksum.c.o.provides
+
+CMakeFiles/CodePieces.dir/checksum.c.o.provides.build: CMakeFiles/CodePieces.dir/checksum.c.o
+
+
+CMakeFiles/CodePieces.dir/killer.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/killer.c.o: ../killer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CodePieces.dir/killer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/killer.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/killer.c
+
+CMakeFiles/CodePieces.dir/killer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/killer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/killer.c > CMakeFiles/CodePieces.dir/killer.c.i
+
+CMakeFiles/CodePieces.dir/killer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/killer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/killer.c -o CMakeFiles/CodePieces.dir/killer.c.s
+
+CMakeFiles/CodePieces.dir/killer.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/killer.c.o.requires
+
+CMakeFiles/CodePieces.dir/killer.c.o.provides: CMakeFiles/CodePieces.dir/killer.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/killer.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/killer.c.o.provides
+
+CMakeFiles/CodePieces.dir/killer.c.o.provides.build: CMakeFiles/CodePieces.dir/killer.c.o
+
+
+CMakeFiles/CodePieces.dir/rand.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/rand.c.o: ../rand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CodePieces.dir/rand.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/rand.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/rand.c
+
+CMakeFiles/CodePieces.dir/rand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/rand.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/rand.c > CMakeFiles/CodePieces.dir/rand.c.i
+
+CMakeFiles/CodePieces.dir/rand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/rand.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/rand.c -o CMakeFiles/CodePieces.dir/rand.c.s
+
+CMakeFiles/CodePieces.dir/rand.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/rand.c.o.requires
+
+CMakeFiles/CodePieces.dir/rand.c.o.provides: CMakeFiles/CodePieces.dir/rand.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/rand.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/rand.c.o.provides
+
+CMakeFiles/CodePieces.dir/rand.c.o.provides.build: CMakeFiles/CodePieces.dir/rand.c.o
+
+
+CMakeFiles/CodePieces.dir/resolv.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/resolv.c.o: ../resolv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CodePieces.dir/resolv.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/resolv.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/resolv.c
+
+CMakeFiles/CodePieces.dir/resolv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/resolv.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/resolv.c > CMakeFiles/CodePieces.dir/resolv.c.i
+
+CMakeFiles/CodePieces.dir/resolv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/resolv.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/resolv.c -o CMakeFiles/CodePieces.dir/resolv.c.s
+
+CMakeFiles/CodePieces.dir/resolv.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/resolv.c.o.requires
+
+CMakeFiles/CodePieces.dir/resolv.c.o.provides: CMakeFiles/CodePieces.dir/resolv.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/resolv.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/resolv.c.o.provides
+
+CMakeFiles/CodePieces.dir/resolv.c.o.provides.build: CMakeFiles/CodePieces.dir/resolv.c.o
+
+
+CMakeFiles/CodePieces.dir/scanner.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/scanner.c.o: ../scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CodePieces.dir/scanner.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/scanner.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/scanner.c
+
+CMakeFiles/CodePieces.dir/scanner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/scanner.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/scanner.c > CMakeFiles/CodePieces.dir/scanner.c.i
+
+CMakeFiles/CodePieces.dir/scanner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/scanner.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/scanner.c -o CMakeFiles/CodePieces.dir/scanner.c.s
+
+CMakeFiles/CodePieces.dir/scanner.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/scanner.c.o.requires
+
+CMakeFiles/CodePieces.dir/scanner.c.o.provides: CMakeFiles/CodePieces.dir/scanner.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/scanner.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/scanner.c.o.provides
+
+CMakeFiles/CodePieces.dir/scanner.c.o.provides.build: CMakeFiles/CodePieces.dir/scanner.c.o
+
+
+CMakeFiles/CodePieces.dir/table.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/table.c.o: ../table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CodePieces.dir/table.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/table.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/table.c
+
+CMakeFiles/CodePieces.dir/table.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/table.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/table.c > CMakeFiles/CodePieces.dir/table.c.i
+
+CMakeFiles/CodePieces.dir/table.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/table.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/table.c -o CMakeFiles/CodePieces.dir/table.c.s
+
+CMakeFiles/CodePieces.dir/table.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/table.c.o.requires
+
+CMakeFiles/CodePieces.dir/table.c.o.provides: CMakeFiles/CodePieces.dir/table.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/table.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/table.c.o.provides
+
+CMakeFiles/CodePieces.dir/table.c.o.provides.build: CMakeFiles/CodePieces.dir/table.c.o
+
+
+CMakeFiles/CodePieces.dir/util.c.o: CMakeFiles/CodePieces.dir/flags.make
+CMakeFiles/CodePieces.dir/util.c.o: ../util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CodePieces.dir/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CodePieces.dir/util.c.o   -c /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/util.c
+
+CMakeFiles/CodePieces.dir/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CodePieces.dir/util.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/util.c > CMakeFiles/CodePieces.dir/util.c.i
+
+CMakeFiles/CodePieces.dir/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CodePieces.dir/util.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/util.c -o CMakeFiles/CodePieces.dir/util.c.s
+
+CMakeFiles/CodePieces.dir/util.c.o.requires:
+
+.PHONY : CMakeFiles/CodePieces.dir/util.c.o.requires
+
+CMakeFiles/CodePieces.dir/util.c.o.provides: CMakeFiles/CodePieces.dir/util.c.o.requires
+	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/util.c.o.provides.build
+.PHONY : CMakeFiles/CodePieces.dir/util.c.o.provides
+
+CMakeFiles/CodePieces.dir/util.c.o.provides.build: CMakeFiles/CodePieces.dir/util.c.o
+
+
 # Object files for target CodePieces
 CodePieces_OBJECTS = \
-"CMakeFiles/CodePieces.dir/main.c.o"
+"CMakeFiles/CodePieces.dir/main.c.o" \
+"CMakeFiles/CodePieces.dir/attack.c.o" \
+"CMakeFiles/CodePieces.dir/attack_app.c.o" \
+"CMakeFiles/CodePieces.dir/attack_gre.c.o" \
+"CMakeFiles/CodePieces.dir/attack_tcp.c.o" \
+"CMakeFiles/CodePieces.dir/attack_udp.c.o" \
+"CMakeFiles/CodePieces.dir/checksum.c.o" \
+"CMakeFiles/CodePieces.dir/killer.c.o" \
+"CMakeFiles/CodePieces.dir/rand.c.o" \
+"CMakeFiles/CodePieces.dir/resolv.c.o" \
+"CMakeFiles/CodePieces.dir/scanner.c.o" \
+"CMakeFiles/CodePieces.dir/table.c.o" \
+"CMakeFiles/CodePieces.dir/util.c.o"
 
 # External object files for target CodePieces
 CodePieces_EXTERNAL_OBJECTS =
 
 CodePieces: CMakeFiles/CodePieces.dir/main.c.o
+CodePieces: CMakeFiles/CodePieces.dir/attack.c.o
+CodePieces: CMakeFiles/CodePieces.dir/attack_app.c.o
+CodePieces: CMakeFiles/CodePieces.dir/attack_gre.c.o
+CodePieces: CMakeFiles/CodePieces.dir/attack_tcp.c.o
+CodePieces: CMakeFiles/CodePieces.dir/attack_udp.c.o
+CodePieces: CMakeFiles/CodePieces.dir/checksum.c.o
+CodePieces: CMakeFiles/CodePieces.dir/killer.c.o
+CodePieces: CMakeFiles/CodePieces.dir/rand.c.o
+CodePieces: CMakeFiles/CodePieces.dir/resolv.c.o
+CodePieces: CMakeFiles/CodePieces.dir/scanner.c.o
+CodePieces: CMakeFiles/CodePieces.dir/table.c.o
+CodePieces: CMakeFiles/CodePieces.dir/util.c.o
 CodePieces: CMakeFiles/CodePieces.dir/build.make
 CodePieces: CMakeFiles/CodePieces.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Documents/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CodePieces"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable CodePieces"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CodePieces.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +412,18 @@ CMakeFiles/CodePieces.dir/build: CodePieces
 .PHONY : CMakeFiles/CodePieces.dir/build
 
 CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/main.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/attack.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/attack_app.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/attack_gre.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/attack_tcp.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/attack_udp.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/checksum.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/killer.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/rand.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/resolv.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/scanner.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/table.c.o.requires
+CMakeFiles/CodePieces.dir/requires: CMakeFiles/CodePieces.dir/util.c.o.requires
 
 .PHONY : CMakeFiles/CodePieces.dir/requires
 
@@ -108,6 +432,6 @@ CMakeFiles/CodePieces.dir/clean:
 .PHONY : CMakeFiles/CodePieces.dir/clean
 
 CMakeFiles/CodePieces.dir/depend:
-	cd /root/Documents/CodePieces/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/CodePieces /root/Documents/CodePieces /root/Documents/CodePieces/cmake-build-debug /root/Documents/CodePieces/cmake-build-debug /root/Documents/CodePieces/cmake-build-debug/CMakeFiles/CodePieces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles/CodePieces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CodePieces.dir/depend
 

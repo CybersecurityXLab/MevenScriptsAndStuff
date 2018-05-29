@@ -54,10 +54,10 @@ RM = /root/Documents/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/CodePieces
+CMAKE_SOURCE_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/CodePieces/cmake-build-debug
+CMAKE_BINARY_DIR = /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/CodePieces.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /root/Documents/CodePieces/cmake-build-debug
 CMakeFiles/CodePieces.dir/all:
 	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/depend
 	$(MAKE) -f CMakeFiles/CodePieces.dir/build.make CMakeFiles/CodePieces.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/Documents/CodePieces/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CodePieces"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target CodePieces"
 .PHONY : CMakeFiles/CodePieces.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/CodePieces.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CodePieces.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/CodePieces/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CodePieces.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/CodePieces/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/GitHub/MevenScriptsAndStuff/CodePieces/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CodePieces.dir/rule
 
 # Convenience name for target.

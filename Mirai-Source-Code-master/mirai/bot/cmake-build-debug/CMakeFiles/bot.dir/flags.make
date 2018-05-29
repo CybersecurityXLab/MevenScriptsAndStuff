@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/root/Documents/Mirai-Source-Code-master/mirai/bot/. 
+C_INCLUDES = -I/root/Documents/GitHub/MevenScriptsAndStuff/Mirai-Source-Code-master/mirai/bot/. 
 
