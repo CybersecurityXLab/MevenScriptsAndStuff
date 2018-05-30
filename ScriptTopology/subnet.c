@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
         fprintf(stderr, "usage : %s subnetNumber numberOfDeviceOnSubnet\n", argv[0]);
         exit(1);
     }
-    
+
     int arg1 = atoi(argv[1]);
     int arg2 = atoi(argv[2]);
 
@@ -51,16 +51,15 @@ int main(int argc, char* argv[]) {
     //setup for the bridge
     fprintf(file, "sudo ovs-vsctl add-br br0\\n"
                   "sudo ovs-vsctl set-fail-mode br0 standalone\\n");
-    fprintf(file,"sudo ovs-vsctl add-port br0 eth1\\n");
 
-    for(int i = 1; i <= arg2; i++){
-        fprintf(file, "sudo ovs-vsctl add-port br0 eth%d\\n", i);
+    for(int i = 0; i <= arg2; i++){
+        fprintf(file, "sudo ovs-vsctl add-port br0 eth%d\\n", i+1);
     }
 
     //create the bridge towards monitor's network
     fprintf(file, "sudo ovs-vsctl -- set Bridge br0 mirrors=@m -- ");
-    for(int i = 1; i <= arg2+1; i++){
-        fprintf(file, "--id=@eth%d get Port eth%d ", i, i);
+    for(int i = 0; i <= arg2; i++){
+        fprintf(file, "--id=@eth%d get Port eth%d ", i+1, i+1);
     }
 
     fprintf(file, "-- --id=@m create Mirror name=mymirrorsub%d select-dst-port=", arg1);
