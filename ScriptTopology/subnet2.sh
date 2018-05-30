@@ -1,1 +1,2 @@
-fprintf "sudo ifconfig eth0 netmask 255.255.0.0\nsudo ifconfig eth1 netmask 255.255.0.0\nsudo ifconfig eth2 netmask 255.255.0.0\nsudo ifconfig eth3 netmask 255.255.0.0\nsudo ifconfig eth4 netmask 255.255.0.0\nsudo ifconfig eth5 netmask 255.255.0.0\n
+printf "sudo ifconfig eth1 10.10.2.1 netmask 255.255.0.0\nsudo ifconfig eth2 10.10.2.3 netmask 255.255.0.0\nsudo ovs-vsctl add-br br0\nsudo ovs-vsctl set-fail-mode br0 standalone\nsudo ovs-vsctl add-port br0 eth1
+sudo ovs-vsctl add-port br0 eth1\nsudo ovs-vsctl -- set Bridge br0 mirrors=@m -- --id=@eth1 get Port eth1 --id=@eth2 get Port eth2 -- --id=@m create Mirror name=mymirrorsub2 select-dst-port=@eth2 select-src-port=@eth2 output-port=@eth1"
