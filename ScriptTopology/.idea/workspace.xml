@@ -31,8 +31,8 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+            <state relative-caret-position="465">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -111,7 +111,7 @@
   </component>
   <component name="RunManager" selected="Application.ScriptTopology">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ScriptTopology" RUN_TARGET_NAME="ScriptTopology" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="ScriptTopology" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2 6" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ScriptTopology" TARGET_NAME="ScriptTopology" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ScriptTopology" RUN_TARGET_NAME="ScriptTopology" />
+    <configuration name="ScriptTopology" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2 2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ScriptTopology" TARGET_NAME="ScriptTopology" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ScriptTopology" RUN_TARGET_NAME="ScriptTopology" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.ScriptTopology" />
@@ -127,12 +127,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527632349233</updated>
-      <workItem from="1527632350492" duration="8961000" />
+      <workItem from="1527632350492" duration="10894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8961000" />
+    <option name="totallyTimeSpent" value="10894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -166,14 +166,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.c</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -198,8 +191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+        <state relative-caret-position="465">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
