@@ -64,7 +64,7 @@ int main(int argc, char* argv[]) {
                       "output-port=@eth1\n"); //script finished
     }else{
         fprintf(file, "-- --id=@m create Mirror name=mymirrorsub1 select-dst-port=@eth1 "
-                      "select-src-port=@eth1"
+                      "select-src-port=@eth1 "
                       "output-port=@eth2\n"); //script finished
     }
 
