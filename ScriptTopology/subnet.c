@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 int main(int argc, char* argv[]) {
 
     if(argc != 3 ){ //check if there is a correct number of argv
@@ -12,13 +13,18 @@ int main(int argc, char* argv[]) {
     int arg1 = atoi(argv[1]);
     int arg2 = atoi(argv[2]);
 
-    if(arg1 == 1 && arg2 != 1){
-        fprintf(stderr, "subnet 1 is reserved for 1 device : the monitor\n");
+    if(arg1 < 1 || arg2 < 1){ // avoid negative network
+        fprintf(stderr, "please select a number > 1 for the subnet number and at least 1 device\n");
+        exit(1);
+    }
+
+    if(arg1 == 1){
+        printf("This network is reserved for the monitor\n");
         exit(1);
     }
 
     FILE *file;
-    char filename[20] = "subnet1.sh";
+    char filename[20];
 
     //create the shell file subnetX.sh
     strcpy(filename, "subnet");
@@ -31,43 +37,52 @@ int main(int argc, char* argv[]) {
         exit(1);
     }
 
+    fprintf(file, "printf \""); //start writing the commands needed for the file executed on the ovs
+    //ifconfig network on subnetX.sh + ifconfig devices on output lines
+    fprintf(file, "sudo ifconfig eth1 10.10.%d.1 netmask 255.255.0.0\\n", arg1);
+    printf("please enter the followings commands on the corresponding device of the subnet : \n");
 
-    if (arg1 == 1) {
-        printf("Remember to run sudo ifconfig eth1 10.10.1.1 netmask 255.255.255.0 on the monitor !\n");
-        fprintf(file, "#!/bin/sh\n"
-                      "sudo ifconfig eth1 10.10.1.2 netmask 255.255.255.0\n"
-                      "sudo ifconfig eth2 10.10.2.1 netmask 255.255.255.0\n");
+    for(int i = 2; i <= arg2+1; i++){
+        fprintf(file, "sudo ifconfig eth%d 10.10.%d.%d netmask 255.255.0.0\\n", i, arg1, i*2-1); //config network
+        printf("device #%d : sudo ifconfig eth1 10.10.%d.%d netmask 255.255.0.0\n", i-1, arg1, i*2-2); // config device
 
-    }else {
-        //config network
-        fprintf(file, "#!/bin/sh\n"
-                      "sudo ifconfig eth1 10.10.%d.1 netmask 255.255.255.0\n"
-                      "sudo ifconfig eth2 10.10.2.%d netmask 255.255.255.0\n", arg1 + 1, arg1);
     }
-
-
 
     //setup for the bridge
-    fprintf(file, "sudo ovs-vsctl add-br br0\n"
-                  "sudo ovs-vsctl set-fail-mode br0 standalone\n"
-                  "sudo ovs-vsctl add-port br0 eth1\n"
-                  "sudo ovs-vsctl add-port br0 eth2\n");
+    fprintf(file, "sudo ovs-vsctl add-br br0\\n"
+                  "sudo ovs-vsctl set-fail-mode br0 standalone\\n");
 
-
-    //create the bridge towards monitor
-    fprintf(file, "sudo ovs-vsctl -- set Bridge br0 mirrors=@m "
-                  "-- --id=@eth1 get Port eth1 "
-                  "-- --id=@eth2 get Port eth2 ");
-    if(arg1 ==1){
-        fprintf(file, "-- --id=@m create Mirror name=mymirrorsub1 select-dst-port=@eth2 "
-                      "select-src-port=@eth2"
-                      "output-port=@eth1\n"); //script finished
-    }else{
-        fprintf(file, "-- --id=@m create Mirror name=mymirrorsub1 select-dst-port=@eth1 "
-                      "select-src-port=@eth1 "
-                      "output-port=@eth2\n"); //script finished
+    for(int i = 0; i <= arg2; i++){
+        fprintf(file, "sudo ovs-vsctl add-port br0 eth%d\\n", i+1);
     }
 
+    //create the bridge towards monitor's network
+    fprintf(file, "sudo ovs-vsctl -- set Bridge br0 mirrors=@m -- ");
+    for(int i = 0; i <= arg2; i++){
+        fprintf(file, "--id=@eth%d get Port eth%d ", i+1, i+1);
+    }
+
+    fprintf(file, "-- --id=@m create Mirror name=mymirrorsub%d select-dst-port=", arg1);
+
+    for(int i = 1; i <= arg2; i++) {
+        if(i == arg2){
+            fprintf(file, "@eth%d", i+1);
+        }else{
+            fprintf(file, "@eth%d,", i+1);
+        }
+    }
+
+    fprintf(file, " select-src-port=");
+
+    for(int i = 1; i <= arg2; i++) {
+        if(i == arg2){
+            fprintf(file, "@eth%d", i+1);
+        }else{
+            fprintf(file, "@eth%d,", i+1);
+        }
+    }
+
+    fprintf(file, " output-port=@eth1\""); //close command
 
     fclose(file);//close file
     return 0;

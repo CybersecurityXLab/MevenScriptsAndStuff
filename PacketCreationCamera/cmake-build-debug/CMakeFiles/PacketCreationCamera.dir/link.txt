@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/PacketCreationCamera.dir/main.c.o  -o PacketCreationCamera 

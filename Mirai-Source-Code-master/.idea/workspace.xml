@@ -18,23 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5835308">
+    <splitter split-orientation="horizontal" split-proportion="0.64869666">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="table.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mirai/bot/table.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="scanner.c" pinned="false" current-in-tab="true">
+          <file leaf-file-name="scanner.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mirai/bot/scanner.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="653">
-                  <caret line="60" column="16" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="16" />
+                <state relative-caret-position="533">
+                  <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
                   <folding>
                     <element signature="e#57#75#0" expanded="true" />
                     <element signature="e#1777#1844#0" expanded="true" />
@@ -69,6 +60,81 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loader/src/main.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#572#663#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="telnet_info.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loader/src/headers/telnet_info.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="telnet_info.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loader/src/telnet_info.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-154" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mirai/cnc/admin.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2025">
+                  <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="api.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mirai/cnc/api.go">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="attack.go" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mirai/cnc/attack.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2070" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bot.go" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mirai/cnc/bot.go">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="binary.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loader/src/headers/binary.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="14" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="binary.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loader/src/binary.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="251">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                  <folding>
+                    <element signature="e#721#800#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -76,7 +142,7 @@
           <file leaf-file-name="scanner.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mirai/bot/scanner.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1305">
+                <state relative-caret-position="196">
                   <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
                   <folding>
                     <element signature="e#57#75#0" expanded="true" />
@@ -112,22 +178,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/loader/src/main.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-918" />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mirai/bot/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file leaf-file-name="server.c" pinned="false" current-in-tab="false">
+          <file leaf-file-name="server.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/loader/src/server.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
+                <state relative-caret-position="5925">
                   <caret line="463" column="36" selection-start-line="463" selection-start-column="36" selection-end-line="463" selection-end-column="36" />
                   <folding>
                     <element signature="e#15748#15765#0" expanded="true" />
@@ -136,6 +190,18 @@
                   </folding>
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="util.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loader/src/util.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-135" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="connection.c" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loader/src/connection.c">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -152,7 +218,7 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -162,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,18 +238,24 @@
             <path>
               <item name="Mirai-Source-Code-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mirai-Source-Code-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dlr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mirai-Source-Code-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mirai-Source-Code-master" type="462c0819:PsiDirectoryNode" />
               <item name="mirai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mirai-Source-Code-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mirai-Source-Code-master" type="462c0819:PsiDirectoryNode" />
               <item name="mirai" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="cnc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,18 +288,23 @@
       <workItem from="1526666514684" duration="2454000" />
       <workItem from="1527189037475" duration="1485000" />
       <workItem from="1527603751631" duration="2188000" />
+      <workItem from="1527776682903" duration="6000" />
+      <workItem from="1527776699986" duration="4000" />
+      <workItem from="1528909370516" duration="4097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6358000" />
+    <option name="totallyTimeSpent" value="10465000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="7" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12083333" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -241,7 +317,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,8 +370,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loader/src/main.c">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/loader/src/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6945">
+          <caret line="463" column="36" selection-start-line="463" selection-start-column="36" selection-end-line="463" selection-end-column="36" />
+          <folding>
+            <element signature="e#15748#15765#0" expanded="true" />
+            <element signature="e#16368#16385#0" expanded="true" />
+            <element signature="e#16948#16965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/bot/table.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/bot/scanner.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+          <folding>
+            <element signature="e#57#75#0" expanded="true" />
+            <element signature="e#1777#1844#0" expanded="true" />
+            <element signature="e#2048#2108#0" expanded="true" />
+            <element signature="e#10057#10126#0" expanded="true" />
+            <element signature="e#14002#14179#0" expanded="true" />
+            <element signature="e#14609#14682#0" expanded="true" />
+            <element signature="e#15211#15284#0" expanded="true" />
+            <element signature="e#16721#16826#0" expanded="true" />
+            <element signature="e#16924#16994#0" expanded="true" />
+            <element signature="e#17990#18056#0" expanded="true" />
+            <element signature="e#18401#18454#0" expanded="true" />
+            <element signature="e#18973#19046#0" expanded="true" />
+            <element signature="e#19682#19747#0" expanded="true" />
+            <element signature="e#20271#20333#0" expanded="true" />
+            <element signature="e#20607#20669#0" expanded="true" />
+            <element signature="e#21342#21401#0" expanded="true" />
+            <element signature="e#22330#22386#0" expanded="true" />
+            <element signature="e#23186#23242#0" expanded="true" />
+            <element signature="e#24058#24118#0" expanded="true" />
+            <element signature="e#24919#24975#0" expanded="true" />
+            <element signature="e#25790#25859#0" expanded="true" />
+            <element signature="e#26426#26499#0" expanded="true" />
+            <element signature="e#26789#26856#0" expanded="true" />
+            <element signature="e#28163#28209#0" expanded="true" />
+            <element signature="e#35619#35664#0" expanded="true" />
+            <element signature="e#35912#35966#0" expanded="true" />
+            <element signature="e#36410#36470#0" expanded="true" />
+            <element signature="e#36988#37036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6945">
+          <caret line="463" column="36" selection-start-line="463" selection-start-column="36" selection-end-line="463" selection-end-column="36" />
+          <folding>
+            <element signature="e#15748#15765#0" expanded="true" />
+            <element signature="e#16368#16385#0" expanded="true" />
+            <element signature="e#16948#16965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/bot/table.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/bot/scanner.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+          <folding>
+            <element signature="e#57#75#0" expanded="true" />
+            <element signature="e#1777#1844#0" expanded="true" />
+            <element signature="e#2048#2108#0" expanded="true" />
+            <element signature="e#10057#10126#0" expanded="true" />
+            <element signature="e#14002#14179#0" expanded="true" />
+            <element signature="e#14609#14682#0" expanded="true" />
+            <element signature="e#15211#15284#0" expanded="true" />
+            <element signature="e#16721#16826#0" expanded="true" />
+            <element signature="e#16924#16994#0" expanded="true" />
+            <element signature="e#17990#18056#0" expanded="true" />
+            <element signature="e#18401#18454#0" expanded="true" />
+            <element signature="e#18973#19046#0" expanded="true" />
+            <element signature="e#19682#19747#0" expanded="true" />
+            <element signature="e#20271#20333#0" expanded="true" />
+            <element signature="e#20607#20669#0" expanded="true" />
+            <element signature="e#21342#21401#0" expanded="true" />
+            <element signature="e#22330#22386#0" expanded="true" />
+            <element signature="e#23186#23242#0" expanded="true" />
+            <element signature="e#24058#24118#0" expanded="true" />
+            <element signature="e#24919#24975#0" expanded="true" />
+            <element signature="e#25790#25859#0" expanded="true" />
+            <element signature="e#26426#26499#0" expanded="true" />
+            <element signature="e#26789#26856#0" expanded="true" />
+            <element signature="e#28163#28209#0" expanded="true" />
+            <element signature="e#35619#35664#0" expanded="true" />
+            <element signature="e#35912#35966#0" expanded="true" />
+            <element signature="e#36410#36470#0" expanded="true" />
+            <element signature="e#36988#37036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6915">
+          <caret line="463" column="36" selection-start-line="463" selection-start-column="36" selection-end-line="463" selection-end-column="36" />
+          <folding>
+            <element signature="e#15748#15765#0" expanded="true" />
+            <element signature="e#16368#16385#0" expanded="true" />
+            <element signature="e#16948#16965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/bot/table.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/bot/scanner.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+          <folding>
+            <element signature="e#57#75#0" expanded="true" />
+            <element signature="e#1777#1844#0" expanded="true" />
+            <element signature="e#2048#2108#0" expanded="true" />
+            <element signature="e#10057#10126#0" expanded="true" />
+            <element signature="e#14002#14179#0" expanded="true" />
+            <element signature="e#14609#14682#0" expanded="true" />
+            <element signature="e#15211#15284#0" expanded="true" />
+            <element signature="e#16721#16826#0" expanded="true" />
+            <element signature="e#16924#16994#0" expanded="true" />
+            <element signature="e#17990#18056#0" expanded="true" />
+            <element signature="e#18401#18454#0" expanded="true" />
+            <element signature="e#18973#19046#0" expanded="true" />
+            <element signature="e#19682#19747#0" expanded="true" />
+            <element signature="e#20271#20333#0" expanded="true" />
+            <element signature="e#20607#20669#0" expanded="true" />
+            <element signature="e#21342#21401#0" expanded="true" />
+            <element signature="e#22330#22386#0" expanded="true" />
+            <element signature="e#23186#23242#0" expanded="true" />
+            <element signature="e#24058#24118#0" expanded="true" />
+            <element signature="e#24919#24975#0" expanded="true" />
+            <element signature="e#25790#25859#0" expanded="true" />
+            <element signature="e#26426#26499#0" expanded="true" />
+            <element signature="e#26789#26856#0" expanded="true" />
+            <element signature="e#28163#28209#0" expanded="true" />
+            <element signature="e#35619#35664#0" expanded="true" />
+            <element signature="e#35912#35966#0" expanded="true" />
+            <element signature="e#36410#36470#0" expanded="true" />
+            <element signature="e#36988#37036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loader/src/server.c">
       <provider selected="true" editor-type-id="text-editor">
@@ -345,9 +585,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/headers/binary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/util.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/binary.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#721#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/connection.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/loader/src/server.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="5925">
           <caret line="463" column="36" selection-start-line="463" selection-start-column="36" selection-end-line="463" selection-end-column="36" />
           <folding>
             <element signature="e#15748#15765#0" expanded="true" />
@@ -357,18 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mirai/bot/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loader/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mirai/bot/scanner.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="533">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
           <folding>
             <element signature="e#57#75#0" expanded="true" />
             <element signature="e#1777#1844#0" expanded="true" />
@@ -401,6 +658,46 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#572#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/headers/telnet_info.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader/src/telnet_info.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/cnc/admin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/cnc/api.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/cnc/attack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirai/cnc/bot.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

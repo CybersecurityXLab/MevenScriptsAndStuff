@@ -49,11 +49,8 @@ int main(int argc, char* argv[]) {
                   "<disk_image xmlns=\"http://www.geni.net/resources/rspec/3\" name=\"urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31\"/>\n"
                   "</sliver_type>\n"
                   "<services xmlns=\"http://www.geni.net/resources/rspec/3\">\n"
-                  "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"wget\" shell=\"/bin/sh\"/>\n"
-                  "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"chmod 777 bridge.sh\" shell=\"/bin/sh\"/>\n"
-                  "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"./bridge.sh 1 %d\" shell=\"/bin/sh\"/>\n",
-            subnets);
-    fprintf(file, "</services>\n"
+                  "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"echo &quot;hello world !&quot; \" shell=\"/bin/sh\"/>\n"
+                  "</services>\n"
                   "<interface xmlns=\"http://www.geni.net/resources/rspec/3\" client_id=\"interface-1\">\n"
                   "<ip xmlns=\"http://www.geni.net/resources/rspec/3\" address=\"10.10.1.2\" type=\"ipv4\" netmask=\"255.255.255.0\"/>\n"
                   "</interface>\n");
@@ -79,9 +76,7 @@ int main(int argc, char* argv[]) {
                       "<disk_image xmlns=\"http://www.geni.net/resources/rspec/3\" name=\"urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-OVS2.31\"/>\n"
                       "</sliver_type>\n"
                       "<services xmlns=\"http://www.geni.net/resources/rspec/3\">\n"
-                      "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"wget\" shell=\"/bin/sh\"/>\n"
-                      "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"chmod 777 bridge.sh\" shell=\"/bin/sh\"/>\n"
-                      "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"./bridge.sh 1\" shell=\"/bin/sh\"/>\n"
+                      "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"echo &quot;hello world !&quot; \" shell=\"/bin/sh\"/>\n"
                       "</services>\n"
                       //interface to backbone
                       "<interface xmlns=\"http://www.geni.net/resources/rspec/3\" client_id=\"interface-%d\">\n",
@@ -117,6 +112,7 @@ int main(int argc, char* argv[]) {
                     "<disk_image xmlns=\"http://www.geni.net/resources/rspec/3\" name=\"urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD\"/>\n"
                     "</sliver_type>\n"
                     "<services xmlns=\"http://www.geni.net/resources/rspec/3\">\n"
+                    "<execute xmlns=\"http://www.geni.net/resources/rspec/3\" command=\"echo &quot;hello world !&quot; \" shell=\"/bin/sh\"/>\n"
                     "</services>\n");
             //interface to subnet
             fprintf(file, "<interface xmlns=\"http://www.geni.net/resources/rspec/3\" client_id=\"interface-%d\">\n",

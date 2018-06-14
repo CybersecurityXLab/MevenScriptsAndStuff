@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Documents/GitHub/MevenScriptsAndStuff/PacketCreationCamera/main.c
+stdio.h
+-
+linux/ip.h
+-
+linux/tcp.h
+-
+arpa/inet.h
+-
+fcntl.h
+-
+stdlib.h
+-
+unistd.h
+-
+
